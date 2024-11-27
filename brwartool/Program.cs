@@ -15,9 +15,18 @@ namespace brwartool
 
             string action = args[0].ToLower();
             if (action.Equals("extract"))
+            {
                 Extract(args[1], args[2]);
-            else if (action.Equals("create"))
+                return;
+            }
+                
+            if (action.Equals("create"))
+            {
                 Create(args[1], args[2]);
+                return;
+            }
+
+            PrintUsage();
         }
 
         static void PrintUsage()
