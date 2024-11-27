@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "brwartool": {
+      "commandName": "Project",
+      "commandLineArgs": "create BNK_ITEM_SE BNK_ITEM_SE_2.brwar"
+    }
+  }
+}
